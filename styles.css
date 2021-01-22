@@ -1,0 +1,194 @@
+/**************************TAG SELECTORS**********************************/
+
+
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Hachi Maru Pop', cursive;
+  font-size: 3.125rem;
+  color: #66bfbf;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  padding-bottom: 1.25rem;
+}
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+  color: #11999e
+}
+
+h4 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #11999e
+}
+
+p {
+  font-family: 'Maven Pro', sans-serif;
+  line-height: 2;
+}
+
+hr {
+  border-top: 0.1875rem dotted grey;
+  width: 4%;
+  margin: 6.25rem auto 6.25rem auto;
+}
+
+a {
+  color: #66bfbf;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 0 20px 0 0;
+}
+
+a:hover {
+  color: #eaf6f6
+}
+
+/*div {
+  background-color: #e4f9f5;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin: 100px;
+}*/
+
+
+/**************************CLASS SELECTORS**********************************/
+
+.navbar {
+  padding: 3rem;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+
+.tab {
+  display:inline-block;
+  margin-left: 40px;
+}
+
+.p1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  padding-top: 9.375rem;
+  position: relative;
+}
+
+.cloud_top {
+  position: relative;
+  height: 6.25rem;
+  left: 12.5rem;
+  bottom: 3.125rem;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.cloud_bottom {
+  position: relative;
+  height: 4.375rem;
+  right: 12.5rem;
+}
+
+.man {
+  margin: auto;
+  display: block;
+  position: relative;
+  height: 4.375rem;
+  top: 12.5rem;
+}
+
+.house {
+  background-color: #e4f9f5;
+  position: relative;
+  display: inline-block;
+  height: 12.5rem;
+  left: 18.75rem;
+}
+
+.middle-container {
+  padding-top: 6.25rem;
+}
+
+.me_pic {
+  height: 12.5rem;
+}
+
+
+.skills {
+  height: 40rem;
+  width: 45rem;
+  margin: 6.25rem auto 6.25rem auto;
+}
+
+.skill-row {
+  height: 18.75rem;
+  text-align: left;
+}
+
+.skill_1 {
+  height: 15rem;
+  width: 15rem;
+  float: left;
+  margin: 2rem;
+}
+
+.skill_2 {
+  height: 15rem;
+  width: 15rem;
+  float: right;
+  margin: 2rem;
+}
+
+.bottom-container {
+  margin-top: 10rem;
+  padding: 4.25rem 0 4rem 0;
+  background-color: #66bfbf;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  border-radius: 28px;
+  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: 30px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #11999e;
+  text-decoration: none;
+}
+
+.trademark {
+  color: #eaf6f6;
+  padding-top: 30px;
+}
+
+/**************************ID SELECTORS**********************************/
