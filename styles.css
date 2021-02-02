@@ -30,7 +30,7 @@ h4 {
   color: #11999e
 }
 
-p {
+p, li {
   font-family: 'Maven Pro', sans-serif;
   line-height: 2;
 }
@@ -123,7 +123,7 @@ a:hover {
 }
 
 .middle-container {
-  padding-top: 6.25rem;
+  padding: 6.25rem 10rem;
 }
 
 .me_pic {
@@ -132,13 +132,13 @@ a:hover {
 
 
 .skills {
-  height: 40rem;
+  height: 80rem;
   width: 45rem;
   margin: 6.25rem auto 6.25rem auto;
 }
 
 .skill-row {
-  height: 18.75rem;
+  height: 26.75rem;
   text-align: left;
 }
 
@@ -154,6 +154,22 @@ a:hover {
   width: 15rem;
   float: right;
   margin: 2rem;
+}
+
+.skill_3 {
+  height: 15rem;
+  width: 15rem;
+  float: left;
+  margin: 2rem;
+}
+
+.col-space {
+  padding: 1rem;
+  text-align: left;
+}
+
+.cert:hover {
+  color: black;
 }
 
 .bottom-container {
@@ -174,6 +190,8 @@ a:hover {
   position: relative;
   top: 30px;
 }
+
+
 
 .btn:hover {
   background: #3cb0fd;
