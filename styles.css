@@ -127,7 +127,8 @@ a:hover {
 }
 
 .me_pic {
-  height: 12.5rem;
+  height: 25.5rem;
+  border-radius: 10%
 }
 
 
