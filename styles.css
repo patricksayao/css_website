@@ -131,36 +131,33 @@ a:hover {
 }
 
 
+
 .skills {
-  height: 80rem;
-  width: 45rem;
-  margin: 6.25rem auto 6.25rem auto;
+  padding: 3rem;
 }
 
 .skill-row {
-  height: 26.75rem;
   text-align: left;
+  margin: 4rem auto;
 }
 
 .skill_1 {
   height: 15rem;
   width: 15rem;
-  float: left;
-  margin: 2rem;
+  float:left;
 }
 
 .skill_2 {
   height: 15rem;
   width: 15rem;
-  float: right;
-  margin: 2rem;
+  float:right;
 }
 
 .skill_3 {
   height: 15rem;
   width: 15rem;
-  float: left;
-  margin: 2rem;
+  float:left;
+
 }
 
 .col-space {
