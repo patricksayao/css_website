@@ -25,10 +25,7 @@ h3 {
   color: #11999e
 }
 
-h4 {
-  font-family: 'IBM Plex Sans', sans-serif;
-  color: #11999e
-}
+
 
 p, li {
   font-family: 'Maven Pro', sans-serif;
@@ -194,7 +191,8 @@ a:hover {
 }
 
 .middle-container {
-  padding: 6.25rem 10rem;
+  margin: 6.25rem auto;
+  /* padding: 6.25rem 10rem; */
 }
 
 .me_pic {
@@ -274,7 +272,13 @@ a:hover {
   top: 30px;
 }
 
+.card {
+  padding-top: 3rem;
+}
 
+#proficiency {
+  margin: 3rem auto;
+}
 
 .btn:hover {
   background: #3cb0fd;
@@ -293,3 +297,62 @@ a:hover {
 }
 
 /**************************ID SELECTORS**********************************/
+
+/************************** Media breakpoints **************************/
+
+@media (min-width: 900px) {
+
+  body {
+    font-size: 1.3rem;
+  }
+
+  #navbarId {
+    margin: 3rem auto;
+  }
+
+  .navbar-brand {
+    font-size: 3rem;
+  }
+
+  .nav-link {
+    font-size: 3rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+
+
+  hr {
+    width: 50%;
+  }
+
+  .cert {
+    font-size: 2.5rem;
+  }
+
+  #portfolio-link {
+    font-size: 2.5rem;
+
+  }
+
+  .col-slide {
+    margin: auto;
+    height: 30rem;
+    width: 30rem;
+  }
+
+  /* #links {
+    font-size: 2rem;
+  } */
+
+}
