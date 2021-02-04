@@ -300,7 +300,7 @@ a:hover {
 
 /************************** Media breakpoints **************************/
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
 
   body {
     font-size: 1.3rem;
